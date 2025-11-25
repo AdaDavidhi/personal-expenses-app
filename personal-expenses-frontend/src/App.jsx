@@ -1,12 +1,14 @@
 import { BrowserRouter as Router, Routes, Route} from "react-router"
 import LandingPage from "./pages/LandingPage"
+import OverviewPage from "./pages/dashboard/overview/OverviewPage"
+import LoginPage from "./pages/auth/LoginPage"
 
 function App() {
   return (
     <Router>
        <Routes>
          <Route path="/" element={<LandingPage/>}/>
-         <Route path="/home" element={<h1>Welcome to hompage</h1>}/>
+         <Route path="/overview" element={<OverviewPage/>}/>
        </Routes>
     </Router>
   )
