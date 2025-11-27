@@ -29,7 +29,7 @@ const LoginPage = () => {
 
   return (
     <div className="flex min-h-svh flex-col items-center justify-center gap-6 p-6 md:p-10 bg-gray-900">
-      <form id="login-form" onSubmit={form.handleSubmit(onSubmit)}>
+      <form id="login-form" onSubmit={form.handleSubmit(onSubmit)} className="border border-cyan-900 p-20">
          <div className="text-center mb-5">
            <h1 className="text-gray-200 font-bold text-2xl mb-1">Login to your account</h1>
            <p className="text-gray-400">Enter your credentials below to login to your account</p>
