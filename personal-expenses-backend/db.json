@@ -1,0 +1,87 @@
+{
+  "summary": {
+    "total_expenses": 557.34,
+    "monthly_budget": 800,
+    "remaining_budget": 242.66,
+    "highest_category": "Groceries",
+    "expense_count": 15
+  },
+
+  "available_categories": [
+    "Groceries",
+    "Transportation",
+    "Entertainment",
+    "Dining Out",
+    "Utilities",
+    "Health",
+    "Subscriptions",
+    "Home",
+    "Personal Care",
+    "Gifts"
+  ],
+  "expenses": [
+    {
+      "id": 1,
+      "date": "2025-11-01",
+      "category": "Groceries",
+      "description": "Weekly supermarket run",
+      "amount": 54.23,
+      "payment_method": "Credit Card",
+      "details": [
+        { "item": "Vegetables", "cost": 12.40 },
+        { "item": "Bread", "cost": 3.50 },
+        { "item": "Snacks", "cost": 8.33 },
+        { "item": "Drinks", "cost": 10.00 }
+      ]
+    },
+    {
+      "id": 2,
+      "date": "2025-11-02",
+      "category": "Transportation",
+      "description": "Gas refill",
+      "amount": 38.50,
+      "payment_method": "Debit Card",
+      "details": [
+        { "item": "Fuel - Regular", "liters": 18, "cost": 38.50 }
+      ]
+    },
+    {
+      "id": 3,
+      "date": "2025-11-03",
+      "category": "Entertainment",
+      "description": "Movie night",
+      "amount": 17.99,
+      "payment_method": "Cash",
+      "details": [
+        { "item": "Movie ticket", "cost": 12.50 },
+        { "item": "Popcorn", "cost": 5.49 }
+      ]
+    },
+    {
+      "id": 4,
+      "date": "2025-11-04",
+      "category": "Dining Out",
+      "description": "Dinner with friends",
+      "amount": 42.10,
+      "payment_method": "Credit Card",
+      "details": [
+        { "item": "Main dish", "cost": 22.00 },
+        { "item": "Drink", "cost": 6.10 },
+        { "item": "Side dish", "cost": 14.00 }
+      ]
+    },
+    {
+      "id": 5,
+      "date": "2025-11-05",
+      "category": "Utilities",
+      "description": "Electricity bill",
+      "amount": 91.75,
+      "payment_method": "Bank Transfer",
+      "details": [
+        { "item": "Usage (kWh)", "value": 320 },
+        { "item": "Base fee", "cost": 15.00 },
+        { "item": "Energy cost", "cost": 76.75 }
+      ]
+    }
+  ]
+}
