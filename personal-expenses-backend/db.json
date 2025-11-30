@@ -27,6 +27,7 @@
       "description": "Weekly supermarket run",
       "amount": 54.23,
       "payment_method": "Credit Card",
+      "status": "PAID",
       "details": [
         { "item": "Vegetables", "cost": 12.40 },
         { "item": "Bread", "cost": 3.50 },
@@ -41,6 +42,7 @@
       "description": "Gas refill",
       "amount": 38.50,
       "payment_method": "Debit Card",
+      "status": "AUTO_DETECTED",
       "details": [
         { "item": "Fuel - Regular", "liters": 18, "cost": 38.50 }
       ]
@@ -52,6 +54,7 @@
       "description": "Movie night",
       "amount": 17.99,
       "payment_method": "Cash",
+      "status": "CREDITED",
       "details": [
         { "item": "Movie ticket", "cost": 12.50 },
         { "item": "Popcorn", "cost": 5.49 }
@@ -64,6 +67,7 @@
       "description": "Dinner with friends",
       "amount": 42.10,
       "payment_method": "Credit Card",
+      "status": "PAID",
       "details": [
         { "item": "Main dish", "cost": 22.00 },
         { "item": "Drink", "cost": 6.10 },
@@ -77,6 +81,7 @@
       "description": "Electricity bill",
       "amount": 91.75,
       "payment_method": "Bank Transfer",
+      "status": "CREDITED",
       "details": [
         { "item": "Usage (kWh)", "value": 320 },
         { "item": "Base fee", "cost": 15.00 },

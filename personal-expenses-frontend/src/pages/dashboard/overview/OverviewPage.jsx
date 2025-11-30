@@ -1,7 +1,7 @@
 import Layout from '../Layout'
 import Header from '../../../components/shared/dashboard/Header.jsx'
 import Stats from '../../../components/shared/dashboard/overview/stats/Stats.jsx'
-import TransactionsList from '../../../components/shared/dashboard/overview/transactions/TransactionsList.jsx'
+import ExpensesList from '../../../components/shared/dashboard/overview/expenses/ExpensesList.jsx'
 
 const OverviewPage = () => {
   return (
@@ -14,7 +14,8 @@ const OverviewPage = () => {
 
       <Stats/>
 
-      <TransactionsList/>
+      <h2 className='text-2xl text-gray-200'>Recent Transactions</h2>
+      <ExpensesList/>
     </div>
    </Layout>
   )
